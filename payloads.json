@@ -13,6 +13,110 @@
       "checksum": "b1f60c1ec1685904d396da16710dc9d5676bf0880abf74c65459c886010b9443"
     },
     {
+      "id": "nanodns",
+      "name": "nanoDNS",
+      "filename": "nanodns_0.4.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/nanodns_0.4.elf",
+      "version": "0.4",
+      "category": "PS5 DNS",
+      "author": "drakmor",
+      "description": "Leichtgewichtiger DNS-Server auf der Konsole",
+      "checksum": "fcfb7d47c3b295560ea1603dc015f7c4950353ef0faca16428bd425680ef1fc5",
+      "source": "https://github.com/drakmor/nanoDNS/releases/tag/0.4",
+      "last_update": "2026-08-04"
+    },
+    {
+      "id": "ps5-web-file-manager",
+      "name": "ps5-web-file-manager",
+      "filename": "ps5-web-file-manager_v1.11b.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ps5-web-file-manager_v1.11b.elf",
+      "version": "v1.11b",
+      "category": "PS5 File Explorer",
+      "author": "owendswang",
+      "description": "Web-Dateimanager, http://<PS5-IP>:8888",
+      "checksum": "989f26d292d07a35581a2ee36766fc477fc2f5deedb2a9d0cedae5ee19667eba",
+      "source": "https://github.com/owendswang/ps5-web-file-manager/releases/tag/v1.11b",
+      "last_update": "2026-10-19"
+    },
+    {
+      "id": "shadowmountplus",
+      "name": "ShadowMountPlus",
+      "filename": "shadowmountplus_1.7-beta5fix1.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/shadowmountplus_1.7-beta5fix1.elf",
+      "version": "1.7-beta5fix1",
+      "category": "PS5 Game Dump",
+      "author": "drakmor",
+      "description": "Game-/Image-Mounting. Web-UI Port 10101, Config /data/shadowmount/config.ini",
+      "checksum": "e85fd63b705498488f39c09c9aea6f9fa22e0df2e932865de49a8cedf25172d5",
+      "source": "https://github.com/drakmor/ShadowMountPlus/releases/tag/1.7-beta5fix1",
+      "last_update": "2026-10-10"
+    },
+    {
+      "id": "ps5-linux-loader-soniciso",
+      "name": "PS5 Linux Loader (SonicIso)",
+      "filename": "ps5-linux-loader-soniciso_v13.60.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ps5-linux-loader-soniciso_v13.60.elf",
+      "version": "v13.60",
+      "category": "PS5 Linux",
+      "author": "soniciso1",
+      "description": "Fork von ps5-linux-loader mit 13.60/PS5-Pro-Support. Offiziell nur 3.00-7.61 und 13.60. kstuff/etaHEN muessen aus sein. Braucht Linux-Image auf USB (>=64 GB).",
+      "checksum": "419b393fcec1fd9fc43210dbfb2b1b7e2c5bf1bea384738705fd313ff599b333",
+      "source": "https://github.com/soniciso1/ps5-linux-loader/releases/tag/v13.60",
+      "last_update": "2026-10-19"
+    },
+    {
+      "id": "pkg-manager",
+      "name": "Pkg Manager",
+      "filename": "pkg-manager_v1.5.1.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/pkg-manager_v1.5.1.elf",
+      "version": "v1.5.1",
+      "category": "PS5 Pkg Tool",
+      "author": "itsPLK",
+      "description": "PS5 PKG Manager",
+      "checksum": "82e3548edcc41419b644482cccaef65689334fc0315dc20247f48b90bf182dca",
+      "source": "https://github.com/itsPLK/ps5-pkg-manager/releases/tag/v1.5.1",
+      "last_update": "2026-10-10"
+    },
+    {
+      "id": "garlic-savemgr",
+      "name": "garlic-savemgr",
+      "filename": "garlic-savemgr_v1.14.0.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/garlic-savemgr_v1.14.0.elf",
+      "version": "v1.14.0",
+      "category": "PS5 Saves",
+      "author": "earthonion",
+      "description": "Save-Manager (Decrypt/Encrypt/Export), Web-UI http://<PS5-IP>:8082",
+      "checksum": "0b96822e3f554666b7fa4ead673c60ef602e5534a9f01a45e94d0580bd6e9edd",
+      "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/tag/v1.14.0",
+      "last_update": "2026-10-18"
+    },
+    {
+      "id": "ftpsrv",
+      "name": "ftpsrv",
+      "filename": "ftpsrv_v0.21.1.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ftpsrv_v0.21.1.elf",
+      "version": "v0.21.1",
+      "category": "PS5 Server",
+      "author": "ps5-payload-dev",
+      "description": "FTP-Server (Original). Port 2121. Nicht zusammen mit ftpsrv (drakmor) starten.",
+      "checksum": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938",
+      "source": "https://github.com/ps5-payload-dev/ftpsrv/releases/tag/v0.21.1",
+      "last_update": "2026-08-20"
+    },
+    {
+      "id": "ftpsrv-drakmor",
+      "name": "ftpsrv (drakmor)",
+      "filename": "ftpsrv-drakmor_1.16-ng-stable.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ftpsrv-drakmor_1.16-ng-stable.elf",
+      "version": "1.16-ng-stable",
+      "category": "PS5 Server",
+      "author": "drakmor",
+      "description": "ftpsrv-Fork von drakmor: zusaetzlich SITE CHMOD/COPY/MOVE/SYMLINK, rekursive Groesse/Loeschen, AVBL/XQUOTA, AUTHID, virtuelles /proc. Port 2121. Nicht zusammen mit ftpsrv (Original) starten.",
+      "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32",
+      "source": "https://github.com/drakmor/ftpsrv/releases/tag/1.16-ng-stable",
+      "last_update": "2026-09-20"
+    },
+    {
       "id": "ghost-toothapi",
       "name": "ghost-toothAPI",
       "filename": "ghost-toothAPI.elf",
@@ -22,6 +126,19 @@
       "author": "StonedModder",
       "description": "Bluetooth-Audio A2DP/SBC (Forum-Release, manuell gepflegt). Log: /data/ghost-toothAPI/ghost-toothAPI.log",
       "checksum": "744277a72a268871284ad3b91565968df06c57c0acdabd921c8712e6de731f99"
+    },
+    {
+      "id": "webkit-autoloader-installer",
+      "name": "Webkit-Autoloader-Installer",
+      "filename": "webkit-autoloader-installer_v0.6.1.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/webkit-autoloader-installer_v0.6.1.elf",
+      "version": "v0.6.1",
+      "category": "Ps5-Webkit-Autoloader",
+      "author": "itsPLK",
+      "description": "Installiert den WebKit Autoloader auf dem Homescreen",
+      "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
+      "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/tag/v0.6.1",
+      "last_update": "2026-10-08"
     }
   ]
 }
