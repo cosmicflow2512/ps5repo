@@ -1,4 +1,4 @@
-# PS5 Payload Manager – Fix-Quelle
+# ps5repo – PS5 Payload Manager Quelle
 
 Eigene Quelle für [PS5 Payload Manager](https://github.com/itsPLK/ps5-payload-manager) mit den Payloads, die im Feed von
 [nexgen999/PS5-Super-PLDMGR-Auto-Updater](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater) (Stand `eb128d7`, 2026-09-28) HTTP 404 liefern
@@ -7,7 +7,7 @@ oder statt einer ELF eine GitHub-HTML-Seite enthalten.
 Quelle in pldmgr hinzufügen (Settings → Manage Sources → Add Source):
 
 ```
-https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads.json
+https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads.json
 ```
 
 ## Herkunft der Dateien

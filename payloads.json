@@ -1,10 +1,10 @@
 {
-  "name": "Maik Fixes (Super PLDMGR 404)",
+  "name": "cosmicflow2512 ps5repo",
   "payloads": [
     {
       "name": "A53 Kstuff Shadowmountplus 3In1",
       "filename": "A53-Kstuff-ShadowMountPlus-3in1.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/A53-Kstuff-ShadowMountPlus-3in1.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/A53-Kstuff-ShadowMountPlus-3in1.elf",
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "experimental",
       "category": "PS5 Beta",
@@ -15,7 +15,7 @@
     {
       "name": "A53 Kstuff Smp",
       "filename": "A53-kstuff-SMP.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/A53-kstuff-SMP.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/A53-kstuff-SMP.elf",
       "description": "Experimental AIO by SoNic credit to EchoStrech DarkMor",
       "version": "experimental",
       "category": "PS5 Beta",
@@ -26,7 +26,7 @@
     {
       "name": "A53 Ppr Install 1140 20.09",
       "filename": "a53_ppr_install_1140_20.09.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/a53_ppr_install_1140_20.09.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/a53_ppr_install_1140_20.09.elf",
       "description": "a53_ppr_install_1140_20.09.elf - support 1.00-11.40",
       "version": "20.09",
       "category": "PS5 Beta",
@@ -37,7 +37,7 @@
     {
       "name": "A53 Ppr Install 1160 20.09",
       "filename": "a53_ppr_install_1160_20.09.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/a53_ppr_install_1160_20.09.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/a53_ppr_install_1160_20.09.elf",
       "description": "a53_ppr_install_1160_20.09.elf - 11.60 only",
       "version": "20.09",
       "category": "PS5 Beta",
@@ -48,7 +48,7 @@
     {
       "name": "Kstuff 1.13 Fpkg Dr Test",
       "filename": "kstuff-1.13-fpkg-dr-test6.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/kstuff-1.13-fpkg-dr-test6.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/kstuff-1.13-fpkg-dr-test6.elf",
       "description": "Experimental Kstuff Lite DarkMor - kstuff-fpkg-1.13-dr-test6 (manuell hinzugefuegt)",
       "version": "1.13-fpkg-dr-test6",
       "category": "PS5 Beta",
@@ -59,7 +59,7 @@
     {
       "name": "Kstuff 1.13 Fpkg Dr Test3",
       "filename": "kstuff-1.13-fpkg-dr-test3.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/kstuff-1.13-fpkg-dr-test3.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/kstuff-1.13-fpkg-dr-test3.elf",
       "description": "Experimental Kstuff DarkMor - kstuff-1.13-fpkg-dr-test3",
       "version": "1.13-fpkg-dr-test3",
       "category": "PS5 Beta",
@@ -70,7 +70,7 @@
     {
       "name": "Kstuff Ng",
       "filename": "Kstuff-NG_v1.00.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/Kstuff-NG_v1.00.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/Kstuff-NG_v1.00.elf",
       "description": "Experimental Kstuff NG",
       "version": "v1.00",
       "category": "PS5 Beta",
@@ -81,7 +81,7 @@
     {
       "name": "ShadowMountPlus",
       "filename": "ShadowMountPlus_v1.7beta5fix1.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/ShadowMountPlus_v1.7beta5fix1.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ShadowMountPlus_v1.7beta5fix1.elf",
       "description": "ShadowMountPlus payload for game mounting (1.7beta5-fix1, aus drakmor/ShadowMountPlus Release)",
       "version": "1.7beta5fix1",
       "category": "PS5 Game Dump",
@@ -93,7 +93,7 @@
     {
       "name": "Elf Launcher",
       "filename": "elf-launcher_v2.0.5.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/elf-launcher_v2.0.5.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/elf-launcher_v2.0.5.elf",
       "description": "ELF Launcher (X-F1REBALL-X) v2.0.5, aus offiziellem Release",
       "version": "v2.0.5",
       "category": "PS5 HEN Loader",
@@ -105,7 +105,7 @@
     {
       "name": "PS5 Payload Manager",
       "filename": "pldmgr_v0.6.1.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/pldmgr_v0.6.1.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/pldmgr_v0.6.1.elf",
       "version": "v0.6.1",
       "category": "PS5 HEN Loader",
       "description": "PS5 Payload Manager (itsPLK) v0.6.1, aus offiziellem Release",
@@ -117,7 +117,7 @@
     {
       "name": "Kstuff-A53 SoNic",
       "filename": "kstuff-a53_SoNic_v1.4.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/kstuff-a53_SoNic_v1.4.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/kstuff-a53_SoNic_v1.4.elf",
       "description": "kstuff-lite + A53/PPR-Patches + BackPork in einem ELF (Soonniicc). EXPERIMENTELL, nur FW 5.00 getestet. Kein zweites BackPork/kstuff dazu laden",
       "version": "1.4",
       "category": "PS5 Kstuff",
@@ -129,7 +129,7 @@
     {
       "name": "Pkg Manager",
       "filename": "pkg-manager_v1.5.1.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/pkg-manager_v1.5.1.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/pkg-manager_v1.5.1.elf",
       "description": "PS5 PKG Manager (itsPLK) v1.5.1, aus offiziellem Release",
       "version": "v1.5.1",
       "category": "PS5 Pkg Tool",
@@ -141,7 +141,7 @@
     {
       "name": "Pkg Receiver",
       "filename": "pkg-receiver_v1.2.8.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/pkg-receiver_v1.2.8.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/pkg-receiver_v1.2.8.elf",
       "description": "A package manager for PlayStation 5 need PkgSender android app or windows app",
       "version": "v1.2.8",
       "category": "PS5 Pkg Tool",
@@ -153,7 +153,7 @@
     {
       "name": "Memdbg",
       "filename": "MemDBG_vnightly-20260930-g6e493c9.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/MemDBG_vnightly-20260930-g6e493c9.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/MemDBG_vnightly-20260930-g6e493c9.elf",
       "description": "MemDBG PS5 payload (seregonwar), nightly 2026-09-30, aus offiziellem Release",
       "version": "nightly-20260930-g6e493c9",
       "category": "PS5 Sdk Debug",
@@ -165,7 +165,7 @@
     {
       "name": "Ps5Upload",
       "filename": "ps5upload_v7.0.27.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/ps5upload_v7.0.27.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ps5upload_v7.0.27.elf",
       "description": "PS5 Upload server (phantomptr) v7.0.27, aus offiziellem Release. Port: 9025",
       "version": "v7.0.27",
       "category": "PS5 Server",
@@ -177,7 +177,7 @@
     {
       "name": "FGG PlayPods GUI",
       "filename": "FGG-PlayPods-GUI_v0.1.5.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/FGG-PlayPods-GUI_v0.1.5.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/FGG-PlayPods-GUI_v0.1.5.elf",
       "description": "Fork von FGG-PlayPods (menfis911): BT-Audio A2DP/SBC ueber den PS5-Controller. Nicht gleichzeitig mit FGG-PlayPods/ghost-toothAPI. Log: /data/fgg-playpods/playpods.log. Getestet nur FW 13.60",
       "version": "v0.1.5",
       "category": "PS5 Utility",
@@ -189,7 +189,7 @@
     {
       "name": "Fgg Playpods",
       "filename": "FGG-PlayPods_v1.0.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/FGG-PlayPods_v1.0.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/FGG-PlayPods_v1.0.elf",
       "description": "Hear your PlayStation 5 on an ordinary Bluetooth headset.",
       "version": "1.0",
       "category": "PS5 Utility",
@@ -201,7 +201,7 @@
     {
       "name": "Fgg Unpack",
       "filename": "FGG-Unpack_v0.1.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/FGG-Unpack_v0.1.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/FGG-Unpack_v0.1.elf",
       "description": "Extract .zip and .7z archives directly on a jailbroken PlayStation 5.",
       "version": "v0.1",
       "category": "PS5 Utility",
@@ -213,7 +213,7 @@
     {
       "name": "Fgg Xsense",
       "filename": "FGG-XSense_v1.1.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/FGG-XSense_v1.1.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/FGG-XSense_v1.1.elf",
       "description": "Use an Xbox controller on a jailbroken PlayStation 5.",
       "version": "1.1",
       "category": "PS5 Utility",
@@ -225,7 +225,7 @@
     {
       "name": "ghost-toothAPI",
       "filename": "ghost-toothAPI.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/ghost-toothAPI.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ghost-toothAPI.elf",
       "description": "Bluetooth-Audio (A2DP, SBC) fuer normale BT-Headsets/AirPods - Game- und System-Sound, DualSense bleibt verbunden. Headset in Pairing-Modus, ELF senden, ~10 s Scan. Kein Mic/Party-Chat. Log: /data/ghost-toothAPI/ghost-toothAPI.log",
       "version": "v0.01",
       "category": "PS5 Utility",
@@ -236,7 +236,7 @@
     {
       "name": "Webkit-Autoloader-Installer",
       "filename": "webkit-autoloader-installer_v0.6.1.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/PS5-PayloadManager/store/payloads/webkit-autoloader-installer_v0.6.1.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/webkit-autoloader-installer_v0.6.1.elf",
       "description": "Installs WebKit Autoloader on homescreen (itsPLK, v0.6.1, manuell hinzugefuegt)",
       "version": "v0.6.1",
       "category": "Ps5-Webkit-Autoloader",
