@@ -1,0 +1,38 @@
+name: Payloads aktualisieren
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [sources.json, scripts/update.py]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Upstream-Releases pruefen
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add -A payloads payloads.json
+          if git diff --cached --quiet; then echo "Keine Aenderungen"; exit 0; fi
+          MSG="$(cat .update-msg)"
+          git commit -m "auto: ${MSG:-Payloads aktualisiert}"
+          git push

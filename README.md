@@ -1,25 +1,40 @@
 # ps5repo – PS5 Payload Manager Quelle
 
-Eigene Quelle für [PS5 Payload Manager](https://github.com/itsPLK/ps5-payload-manager) mit den Payloads, die im Feed von
-[nexgen999/PS5-Super-PLDMGR-Auto-Updater](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater) (Stand `eb128d7`, 2026-09-28) HTTP 404 liefern
-oder statt einer ELF eine GitHub-HTML-Seite enthalten.
+Eigene Quelle für den [PS5 Payload Manager](https://github.com/itsPLK/ps5-payload-manager) (itsPLK).
+Die Payloads werden automatisch aus den offiziellen Upstream-Releases aktualisiert.
 
-Quelle in pldmgr hinzufügen (Settings → Manage Sources → Add Source):
+In pldmgr hinzufügen (Settings → Manage Sources → Add Source):
 
 ```
 https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads.json
 ```
 
-## Herkunft der Dateien
-- PS5 Beta + ghost-toothAPI: `Internal/payloads/...` aus dem nexgen999-Repo (die echten ELFs, nicht die HTML-Seiten aus dem Feed)
-- kstuff-1.13-fpkg-dr-test6: manuell hinzugefügt (Upload von Maik, 2026-10-11, ersetzt dr-test5)
-- ShadowMountPlus 1.7beta5-fix1: aus dem offiziellen Release https://github.com/drakmor/ShadowMountPlus/releases/tag/1.7-beta5fix1 (2026-10-11, ersetzt 1.7beta5)
-- webkit-autoloader-installer v0.6.1: manuell hinzugefügt (Upload von Maik, 2026-10-08)
-- pkg-manager v1.5.1: aus dem offiziellen Release https://github.com/itsPLK/ps5-pkg-manager/releases/tag/v1.5.1 (2026-10-10, ersetzt v1.4.1)
-- 2026-10-16 aus offiziellen Releases aktualisiert: ps5upload v7.0.27, elf-launcher v2.0.5, MemDBG nightly-20260930 (Vorversionen bleiben bis zum nächsten Update liegen)
-- 2026-10-16 neu aus offiziellen Releases: FGG-PlayPods-GUI v0.1.5 (menfis911), kstuff-a53 1.4 (Soonniicc)
-- 2026-10-16: PS5 Payload Manager v0.6.1 (itsPLK) aufgenommen; alle Einträge mit stabiler id, author und source (pldmgr ab v0.6.0)
-- Übrige: aus `ps5_super_pldmgr_auto_updated_offline.aio_latest.zip` (Release `latest`, Build 2026-09-28 02:20 UTC), SHA-256 identisch mit dem nexgen999-Feed
+## Wie es funktioniert
 
-Alle Dateien haben einen gültigen ELF-Header; `checksum` ist der SHA-256 der hier gehosteten Datei.
-Statischer Stand, keine automatischen Updates. Rechte und Credits liegen bei den jeweiligen Autoren (siehe Credits im nexgen999-README).
+- `sources.json` legt fest, welche Payloads drin sind und woher sie kommen (GitHub- oder Forgejo-Releases, Asset-Muster, Pre-Releases ja/nein).
+- `scripts/update.py` holt das neueste passende Release, prüft den ELF-Header, legt die Datei unter `payloads/` ab und schreibt `payloads.json` mit SHA-256.
+- `.github/workflows/update.yml` läuft alle 6 Stunden, bei Änderungen an `sources.json` und manuell (Actions → „Payloads aktualisieren“ → Run workflow).
+- Ist eine Quelle nicht erreichbar, bleibt der letzte Stand erhalten. Die Vorversion einer Datei bleibt einen Lauf lang liegen, damit gecachte JSONs nicht ins Leere zeigen.
+
+## Payload hinzufügen
+
+Eintrag in `sources.json` ergänzen und committen, der Workflow läuft dann automatisch.
+`"type": "manual"` für Dateien ohne Upstream-Release: Datei nach `payloads/` legen, `file` und `version` setzen.
+
+## Enthaltene Payloads
+
+| Payload | Quelle |
+|---|---|
+| ftpsrv | [ps5-payload-dev/ftpsrv](https://github.com/ps5-payload-dev/ftpsrv) |
+| ftpsrv (drakmor) | [drakmor/ftpsrv](https://github.com/drakmor/ftpsrv) (nur `*-ng-stable`) |
+| ps5-web-file-manager | [owendswang/ps5-web-file-manager](https://github.com/owendswang/ps5-web-file-manager) |
+| ShadowMountPlus | [drakmor/ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus) |
+| nanoDNS | [drakmor/nanoDNS](https://github.com/drakmor/nanoDNS) |
+| garlic-savemgr | [earthonion/garlic-savemgr](https://git.etawen.dev/earthonion/garlic-savemgr) (Forgejo) |
+| Webkit-Autoloader-Installer | [itsPLK/ps5-webkit-autoloader](https://github.com/itsPLK/ps5-webkit-autoloader) |
+| Pkg Manager | [itsPLK/ps5-pkg-manager](https://github.com/itsPLK/ps5-pkg-manager) |
+| PS5 Linux Loader (SonicIso) | [soniciso1/ps5-linux-loader](https://github.com/soniciso1/ps5-linux-loader) |
+| Kstuff 1.13 Fpkg Dr Test | manuell (Test-Build drakmor) |
+| ghost-toothAPI | manuell (Forum-Release StonedModder) |
+
+Rechte und Credits liegen bei den jeweiligen Autoren.
