@@ -41,14 +41,14 @@
     {
       "id": "shadowmountplus",
       "name": "ShadowMountPlus",
-      "filename": "shadowmountplus_1.7beta6-fix2.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/shadowmountplus_1.7beta6-fix2.elf",
-      "version": "1.7beta6-fix2",
+      "filename": "shadowmountplus_1.7beta7.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/shadowmountplus_1.7beta7.elf",
+      "version": "1.7beta7",
       "category": "PS5 Game Dump",
       "author": "drakmor",
       "description": "Game-/Image-Mounting. Web-UI Port 10101, Config /data/shadowmount/config.ini",
-      "checksum": "ec87ad20f78be2d7cb82e9d77e72352b079e049baac3c1a211960ccd6f252e62",
-      "source": "https://github.com/drakmor/ShadowMountPlus/releases/tag/1.7beta6-fix2",
+      "checksum": "a8f9d7f76e8749912508ade0cd5c78076b5bbf1271813c78c80c3d3d9d4777ee",
+      "source": "https://github.com/drakmor/ShadowMountPlus/releases/tag/1.7beta7",
       "last_update": "2026-10-21"
     },
     {
@@ -80,15 +80,15 @@
     {
       "id": "garlic-savemgr",
       "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.14.0.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/garlic-savemgr_v1.14.0.elf",
-      "version": "v1.14.0",
+      "filename": "garlic-savemgr_v1.14.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/garlic-savemgr_v1.14.elf",
+      "version": "v1.14",
       "category": "PS5 Saves",
       "author": "earthonion",
       "description": "Save-Manager (Decrypt/Encrypt/Export), Web-UI http://<PS5-IP>:8082",
-      "checksum": "0b96822e3f554666b7fa4ead673c60ef602e5534a9f01a45e94d0580bd6e9edd",
-      "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/tag/v1.14.0",
-      "last_update": "2026-10-18"
+      "checksum": "57763da9d36ae1cb0c744e90a59a06cb54e4eae0c9a8dec62ce774f892c624b9",
+      "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/tag/v1.14",
+      "last_update": "2026-10-21"
     },
     {
       "id": "ftpsrv",
