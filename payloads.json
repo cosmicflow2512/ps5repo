@@ -54,15 +54,15 @@
     {
       "id": "ps5-linux-loader-soniciso",
       "name": "PS5 Linux Loader (SonicIso)",
-      "filename": "ps5-linux-loader-soniciso_v13.60.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ps5-linux-loader-soniciso_v13.60.elf",
-      "version": "v13.60",
+      "filename": "ps5-linux-loader-soniciso_v2026.10.22-all11-13.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ps5-linux-loader-soniciso_v2026.10.22-all11-13.elf",
+      "version": "v2026.10.22-all11-13",
       "category": "PS5 Linux",
       "author": "soniciso1",
       "description": "Fork von ps5-linux-loader mit 13.60/PS5-Pro-Support. Offiziell nur 3.00-7.61 und 13.60. kstuff/etaHEN muessen aus sein. Braucht Linux-Image auf USB (>=64 GB).",
-      "checksum": "419b393fcec1fd9fc43210dbfb2b1b7e2c5bf1bea384738705fd313ff599b333",
-      "source": "https://github.com/soniciso1/ps5-linux-loader/releases/tag/v13.60",
-      "last_update": "2026-10-19"
+      "checksum": "2ecaaac60f9575235e064c4800051e839115d10b60fee8446b4d2416a22afc6a",
+      "source": "https://github.com/soniciso1/ps5-linux-loader/releases/tag/v2026.10.22-all11-13",
+      "last_update": "2026-10-22"
     },
     {
       "id": "pkg-manager",
