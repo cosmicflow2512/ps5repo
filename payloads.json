@@ -117,6 +117,19 @@
       "last_update": "2026-09-20"
     },
     {
+      "id": "bluev",
+      "name": "BlueV",
+      "filename": "bluev_v0.1.0.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/bluev_v0.1.0.elf",
+      "version": "v0.1.0",
+      "category": "PS5 Utility",
+      "author": "0xZ3n0x",
+      "description": "Bluetooth-Audio A2DP/SBC auf Lautsprecher/Kopfhoerer, USB-BT-Adapter oder interner Chip. Web-UI http://<PS5-IP>:7733 (ohne Passwort). Kein Mikrofon. Getestet nur PS5 Slim. Nicht parallel zu ghost-toothAPI/FGG-PlayPods. Log: /data/bluev/bluev.log",
+      "checksum": "985f43c41d385a3671ecf5fd0d93016b80da9677fd67e869ed45e26f6cafa210",
+      "source": "https://github.com/0xZ3n0x/BlueV/releases/tag/v0.1.0",
+      "last_update": "2026-10-24"
+    },
+    {
       "id": "ghost-toothapi",
       "name": "ghost-toothAPI",
       "filename": "ghost-toothAPI.elf",
