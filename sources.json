@@ -97,10 +97,10 @@
       "name": "PS5 Linux Loader (SonicIso)",
       "category": "PS5 Linux",
       "author": "soniciso1",
-      "description": "Fork von ps5-linux-loader mit 13.60/PS5-Pro-Support. Offiziell nur 3.00-7.61 und 13.60. kstuff/etaHEN muessen aus sein. Braucht Linux-Image auf USB (>=64 GB).",
+      "description": "Fork von ps5-linux-loader (soniciso1). Release 10.xx-support: 10.xx nur Fat/Slim (nicht Pro), dazu 11.00-11.60 und 13.00-13.60. kstuff/etaHEN muessen aus sein. Braucht Linux-Image auf USB (>=64 GB).",
       "type": "github",
       "repo": "soniciso1/ps5-linux-loader",
-      "asset": "^ps5-linux-loader\\.elf$",
+      "asset": "^ps5-linux-loader.*\\.elf$",
       "prerelease": true
     },
     {
