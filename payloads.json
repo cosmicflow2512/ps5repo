@@ -41,15 +41,15 @@
     {
       "id": "shadowmountplus",
       "name": "ShadowMountPlus",
-      "filename": "shadowmountplus_1.7beta9.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/shadowmountplus_1.7beta9.elf",
-      "version": "1.7beta9",
+      "filename": "shadowmountplus_1.7beta10.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/shadowmountplus_1.7beta10.elf",
+      "version": "1.7beta10",
       "category": "PS5 Game Dump",
       "author": "drakmor",
       "description": "Game-/Image-Mounting. Web-UI Port 10101, Config /data/shadowmount/config.ini",
-      "checksum": "928a5a7e33d2801c1c14a5ed8ad83fcab07957ba3a5daccd382dba67d408b3e2",
-      "source": "https://github.com/drakmor/ShadowMountPlus/releases/tag/1.7beta9",
-      "last_update": "2026-10-27"
+      "checksum": "8c6798232ae2a8fbcd209ab97fc4f8d4d47cf23b7eecfaa6349c0bfeb8e4a3d3",
+      "source": "https://github.com/drakmor/ShadowMountPlus/releases/tag/1.7beta10",
+      "last_update": "2026-10-28"
     },
     {
       "id": "ps5-linux-loader-soniciso",
