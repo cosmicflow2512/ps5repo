@@ -59,7 +59,7 @@
       "version": "10.xx-support",
       "category": "PS5 Linux",
       "author": "soniciso1",
-      "description": "Fork von ps5-linux-loader (soniciso1). Release 10.xx-support: 10.xx nur Fat/Slim (nicht Pro), dazu 11.00-11.60 und 13.00-13.60. kstuff/etaHEN muessen aus sein. Braucht Linux-Image auf USB (>=64 GB).",
+      "description": "Fork von ps5-linux-loader (soniciso1). Release-Notes 10.xx-support: 10.xx nur Fat/Slim, nicht Pro. Firmware-Tabelle im ELF: 10.00-12.70 und 13.60. kstuff/etaHEN muessen aus sein. Braucht Linux-Image auf USB (>=64 GB).",
       "checksum": "17679bd43e5435bd407802b5036399a2b961e6845a726dd3b1919f0a5a5af8e6",
       "source": "https://github.com/soniciso1/ps5-linux-loader/releases/tag/10.xx-support",
       "last_update": "2026-10-25"
