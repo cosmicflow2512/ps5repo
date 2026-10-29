@@ -4,13 +4,13 @@
     {
       "id": "kstuff-1.13-dr-test",
       "name": "Kstuff 1.13 Fpkg Dr Test",
-      "filename": "kstuff-1.13-fpkg-dr-test6.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/kstuff-1.13-fpkg-dr-test6.elf",
-      "version": "1.13-fpkg-dr-test6",
+      "filename": "kstuff-1.13-fpkg-dr-test7-restmode.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/kstuff-1.13-fpkg-dr-test7-restmode.elf",
+      "version": "1.13-fpkg-dr-test7-restmode",
       "category": "PS5 Beta",
       "author": "drakmor",
-      "description": "Experimental Kstuff Lite DarkMor (Test-Build, manuell gepflegt)",
-      "checksum": "b1f60c1ec1685904d396da16710dc9d5676bf0880abf74c65459c886010b9443"
+      "description": "Experimental Kstuff Lite DarkMor (Test-Build, manuell gepflegt). test7-restmode: PPR-Resume nach Ruhemodus",
+      "checksum": "f3995e66993e73348575e218bead7b164016b50833ecb6a45b227f0c50cd1561"
     },
     {
       "id": "nanodns",
