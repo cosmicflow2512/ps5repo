@@ -28,28 +28,28 @@
     {
       "id": "ps5-web-file-manager",
       "name": "ps5-web-file-manager",
-      "filename": "ps5-web-file-manager_v1.12.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ps5-web-file-manager_v1.12.elf",
-      "version": "v1.12",
+      "filename": "ps5-web-file-manager_v1.13-rc1.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ps5-web-file-manager_v1.13-rc1.elf",
+      "version": "v1.13-rc1",
       "category": "PS5 File Explorer",
       "author": "owendswang",
       "description": "Web-Dateimanager, http://<PS5-IP>:8888",
-      "checksum": "f3461eb967da7afbbf0420d3294fbc8f999cc2ad53a756bed413aa80c7cfa67a",
-      "source": "https://github.com/owendswang/ps5-web-file-manager/releases/tag/v1.12",
-      "last_update": "2026-10-22"
+      "checksum": "8c9456a10ddde61dd0247b9171e71a285b955096ca7eb8e4ae3bdbe94f38f605",
+      "source": "https://github.com/owendswang/ps5-web-file-manager/releases/tag/v1.13-rc1",
+      "last_update": "2026-10-29"
     },
     {
       "id": "shadowmountplus",
       "name": "ShadowMountPlus",
-      "filename": "shadowmountplus_1.7beta10.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/shadowmountplus_1.7beta10.elf",
-      "version": "1.7beta10",
+      "filename": "shadowmountplus_1.7beta11.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/shadowmountplus_1.7beta11.elf",
+      "version": "1.7beta11",
       "category": "PS5 Game Dump",
       "author": "drakmor",
       "description": "Game-/Image-Mounting. Web-UI Port 10101, Config /data/shadowmount/config.ini",
-      "checksum": "8c6798232ae2a8fbcd209ab97fc4f8d4d47cf23b7eecfaa6349c0bfeb8e4a3d3",
-      "source": "https://github.com/drakmor/ShadowMountPlus/releases/tag/1.7beta10",
-      "last_update": "2026-10-28"
+      "checksum": "08c843018750bef013fe3a4de5f80c5c9738c6c2dafa2406e6b6e68d7585f3da",
+      "source": "https://github.com/drakmor/ShadowMountPlus/releases/tag/1.7beta11",
+      "last_update": "2026-10-29"
     },
     {
       "id": "ps5-linux-loader-soniciso",
