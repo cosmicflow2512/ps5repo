@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [sources.json, scripts/update.py]
+    paths: [sources.json, scripts/update.py, scripts/build_main.sh, .github/workflows/update.yml]
 
 permissions:
   contents: write
@@ -23,6 +23,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Build-Toolchain (ps5-payload-sdk)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq clang-18 lld-18 wget unzip
+          wget -q https://github.com/ps5-payload-dev/sdk/releases/latest/download/ps5-payload-sdk.zip
+          sudo unzip -q -o ps5-payload-sdk.zip -d /opt
+          rm ps5-payload-sdk.zip
+      - name: main-Branches bauen
+        continue-on-error: true
+        env:
+          PS5_PAYLOAD_SDK: /opt/ps5-payload-sdk
+        run: bash scripts/build_main.sh
       - name: Upstream-Releases pruefen
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -31,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          git add -A payloads payloads.json
+          git add -A payloads payloads.json build-state.json
           if git diff --cached --quiet; then echo "Keine Aenderungen"; exit 0; fi
           MSG="$(cat .update-msg)"
           git commit -m "auto: ${MSG:-Payloads aktualisiert}"

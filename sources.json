@@ -104,6 +104,17 @@
       "prerelease": true
     },
     {
+      "id": "ps5-linux-loader-main",
+      "name": "PS5 Linux Loader (offiziell, main)",
+      "category": "PS5 Linux",
+      "author": "ps5-linux",
+      "description": "Automatischer Build des offiziellen ps5-linux-loader aus dem main-Branch (kein offizielles Release, ungetestet). Laut README main: Fat/Slim 3.00-13.60, Pro 11.00-13.60. kstuff/etaHEN muessen aus sein. Braucht Linux-Image auf USB (>=64 GB).",
+      "type": "build",
+      "repo": "ps5-linux/ps5-linux-loader",
+      "branch": "main",
+      "output": "bin/ps5-linux-loader.elf"
+    },
+    {
       "id": "ps5-linux-loader-soniciso",
       "name": "PS5 Linux Loader (SonicIso)",
       "category": "PS5 Linux",

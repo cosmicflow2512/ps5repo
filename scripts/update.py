@@ -66,6 +66,14 @@ def main():
             if src["type"] == "manual":
                 fn, ver, page, date = src["file"], src["version"], src.get("source"), (prev or {}).get("last_update")
                 data = open(os.path.join(PAY, fn), "rb").read()
+            elif src["type"] == "build":
+                st = json.load(open(os.path.join(ROOT, "build-state.json"))).get(sid)
+                if not st or not os.path.exists(os.path.join(PAY, st["file"])):
+                    raise RuntimeError("noch kein erfolgreicher Build")
+                fn, ver, page, date = st["file"], st["version"], st["source"], st["date"]
+                data = open(os.path.join(PAY, fn), "rb").read()
+                if (prev or {}).get("version") != ver:
+                    changes.append(f"{src['name']}: {(prev or {}).get('version', '-')} -> {ver}")
             else:
                 res = pick(src, releases(src))
                 if not res:
