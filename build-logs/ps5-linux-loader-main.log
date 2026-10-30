@@ -1,0 +1,42 @@
+make: Entering directory '/tmp/tmp.YJjSYrhibX/src'
+make -C shellcode_0607
+make -C shellcode_hv
+make -C shellcode_kernel
+make[1]: Entering directory '/tmp/tmp.YJjSYrhibX/src/shellcode_0607'
+make[1]: Entering directory '/tmp/tmp.YJjSYrhibX/src/shellcode_hv'
+make[1]: Entering directory '/tmp/tmp.YJjSYrhibX/src/shellcode_kernel'
+make -C shellcode_break_hv
+make[1]: Entering directory '/tmp/tmp.YJjSYrhibX/src/shellcode_break_hv'
+gcc -O2 -fno-stack-protector -ffreestanding -nostdlib -fcf-protection=none -mno-sse -mno-sse2 -m64 -c main.c -o main.o
+gcc -O2 -fno-stack-protector -ffreestanding -nostdlib -fcf-protection=none -mno-sse -mno-sse2 -m64 -c main.c -o main.o
+gcc -O2 -fno-stack-protector -ffreestanding -nostdlib -fcf-protection=none -mno-sse -mno-sse2 -m64 -c boot_linux.c -o boot_linux.o
+gcc -c entry.S -o entry.o
+gcc -O2 -ffreestanding -nostdlib -fno-pic -fno-plt -fno-stack-protector -fno-stack-clash-protection -fomit-frame-pointer -fno-asynchronous-unwind-tables -fcf-protection=none -fno-jump-tables -mgeneral-regs-only -mno-red-zone -Wall -Wextra -c break_hv.c -o break_hv.o
+boot_linux.c:4:10: fatal error: ../shellcode_hv/shellcode_hv.h: No such file or directory
+    4 | #include "../shellcode_hv/shellcode_hv.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [Makefile:25: boot_linux.o] Error 1
+make[1]: Leaving directory '/tmp/tmp.YJjSYrhibX/src/shellcode_kernel'
+make: *** [Makefile:33: shellcode_kernel/shellcode_kernel.h] Error 2
+make: *** Waiting for unfinished jobs....
+gcc -O2 -fno-stack-protector -ffreestanding -nostdlib -fcf-protection=none -mno-sse -mno-sse2 -m64 -c utils.c -o utils.o
+gcc -O2 -fno-stack-protector -ffreestanding -nostdlib -fcf-protection=none -mno-sse -mno-sse2 -m64 -c utils.c -o utils.o
+gcc -O2 -fno-stack-protector -ffreestanding -nostdlib -fcf-protection=none -mno-sse -mno-sse2 -m64 -c boot_linux.c -o boot_linux.o
+gcc -O2 -fno-stack-protector -ffreestanding -nostdlib -fcf-protection=none -mno-sse -mno-sse2 -m64 -T linker.ld main.o utils.o -o shellcode_0607.elf
+readelf -rW entry.o break_hv.o >/dev/null
+/usr/bin/x86_64-linux-gnu-ld.bfd: warning: shellcode_0607.elf has a LOAD segment with RWX permissions
+objcopy -O binary -j .shell_code shellcode_0607.elf shellcode_0607.bin
+gcc -O2 -fno-stack-protector -ffreestanding -nostdlib -fcf-protection=none -mno-sse -mno-sse2 -m64 -T linker.ld main.o utils.o boot_linux.o -o shellcode_hv.elf
+/usr/bin/x86_64-linux-gnu-ld.bfd: warning: shellcode_hv.elf has a LOAD segment with RWX permissions
+objcopy -O binary -j .shell_code shellcode_hv.elf shellcode_hv.bin
+! readelf -rW entry.o break_hv.o | grep R_X86_64_ | grep -v -E 'R_X86_64_(PC32|PLT32) '
+ld -nostdlib -no-pie -T link.ld entry.o break_hv.o -o break_hv.elf
+objcopy -O binary break_hv.elf break_hv.bin
+xxd -i shellcode_hv.bin > shellcode_hv.h
+xxd -i break_hv.bin > break_hv.h
+xxd -i shellcode_0607.bin > shellcode_0607.h
+make[1]: Leaving directory '/tmp/tmp.YJjSYrhibX/src/shellcode_0607'
+make[1]: Leaving directory '/tmp/tmp.YJjSYrhibX/src/shellcode_break_hv'
+make[1]: Leaving directory '/tmp/tmp.YJjSYrhibX/src/shellcode_hv'
+make: Leaving directory '/tmp/tmp.YJjSYrhibX/src'
