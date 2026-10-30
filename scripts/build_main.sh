@@ -18,12 +18,13 @@ while read -r ID REPO BRANCH OUT; do
   W=$(mktemp -d)
   git clone -q --depth 1 -b "$BRANCH" "https://github.com/$REPO.git" "$W/src"
   if ! PS5_PAYLOAD_SDK="$SDK" make -C "$W/src" -j"$(nproc)" > "$W/build.log" 2>&1; then
-    echo "::warning::$ID: Build fehlgeschlagen"; tail -40 "$W/build.log"; continue
+    echo "::warning::$ID: Build fehlgeschlagen"; tail -40 "$W/build.log"
+    mkdir -p "$ROOT/build-logs"; tail -200 "$W/build.log" > "$ROOT/build-logs/$ID.log"; continue
   fi
   [ "$(head -c4 "$W/src/$OUT" | od -An -c | tr -d ' ')" = "177ELF" ] || { echo "::warning::$ID: keine ELF"; continue; }
   DATE=$(git -C "$W/src" log -1 --format=%cs); SHORT=${SHA:0:7}
   VER="main-${DATE//-/}-$SHORT"; FN="${ID}_${VER}.elf"
-  cp "$W/src/$OUT" "$ROOT/payloads/$FN"
+  cp "$W/src/$OUT" "$ROOT/payloads/$FN"; rm -f "$ROOT/build-logs/$ID.log"
   python3 - "$STATE" "$ID" "$SHA" "$VER" "$FN" "$DATE" "$REPO" <<'PY'
 import json,sys
 p,i,sha,ver,fn,date,repo=sys.argv[1:]
