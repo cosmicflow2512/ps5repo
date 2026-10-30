@@ -65,6 +65,19 @@
       "last_update": "2026-10-25"
     },
     {
+      "id": "ps5-linux-loader",
+      "name": "PS5 Linux Loader (offiziell)",
+      "filename": "ps5-linux-loader_v2.5.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ps5-linux-loader_v2.5.elf",
+      "version": "v2.5",
+      "category": "PS5 Linux",
+      "author": "ps5-linux",
+      "description": "Offizieller ps5-linux-loader. Stand Release beachten: v2.5 deckt nur 3.00-7.61 ab; 11.xx/12.xx/13.xx und Pro sind bisher nur im main-Branch. kstuff/etaHEN muessen aus sein. Braucht Linux-Image auf USB (>=64 GB).",
+      "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49",
+      "source": "https://github.com/ps5-linux/ps5-linux-loader/releases/tag/v2.5",
+      "last_update": "2026-09-05"
+    },
+    {
       "id": "pkg-manager",
       "name": "Pkg Manager",
       "filename": "pkg-manager_v1.5.1.elf",
