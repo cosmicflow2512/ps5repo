@@ -33,6 +33,7 @@ Eintrag in `sources.json` ergänzen und committen, der Workflow läuft dann auto
 | garlic-savemgr | [earthonion/garlic-savemgr](https://git.etawen.dev/earthonion/garlic-savemgr) (Forgejo) |
 | Webkit-Autoloader-Installer | [itsPLK/ps5-webkit-autoloader](https://github.com/itsPLK/ps5-webkit-autoloader) |
 | Pkg Manager | [itsPLK/ps5-pkg-manager](https://github.com/itsPLK/ps5-pkg-manager) |
+| PS5 Linux Loader (offiziell) | [ps5-linux/ps5-linux-loader](https://github.com/ps5-linux/ps5-linux-loader) |
 | PS5 Linux Loader (SonicIso) | [soniciso1/ps5-linux-loader](https://github.com/soniciso1/ps5-linux-loader) |
 | Kstuff 1.13 Fpkg Dr Test | manuell (Test-Build drakmor) |
 | BlueV | [0xZ3n0x/BlueV](https://github.com/0xZ3n0x/BlueV) |

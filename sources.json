@@ -93,6 +93,17 @@
       "prerelease": false
     },
     {
+      "id": "ps5-linux-loader",
+      "name": "PS5 Linux Loader (offiziell)",
+      "category": "PS5 Linux",
+      "author": "ps5-linux",
+      "description": "Offizieller ps5-linux-loader. Stand Release beachten: v2.5 deckt nur 3.00-7.61 ab; 11.xx/12.xx/13.xx und Pro sind bisher nur im main-Branch. kstuff/etaHEN muessen aus sein. Braucht Linux-Image auf USB (>=64 GB).",
+      "type": "github",
+      "repo": "ps5-linux/ps5-linux-loader",
+      "asset": "^ps5-linux-loader.*\\.elf$",
+      "prerelease": true
+    },
+    {
       "id": "ps5-linux-loader-soniciso",
       "name": "PS5 Linux Loader (SonicIso)",
       "category": "PS5 Linux",
