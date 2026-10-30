@@ -17,7 +17,7 @@ while read -r ID REPO BRANCH OUT; do
   if [ "$OLD" = "$SHA" ]; then echo "$ID: unveraendert ($SHA)"; continue; fi
   W=$(mktemp -d)
   git clone -q --depth 1 -b "$BRANCH" "https://github.com/$REPO.git" "$W/src"
-  if ! PS5_PAYLOAD_SDK="$SDK" make -C "$W/src" -j"$(nproc)" > "$W/build.log" 2>&1; then
+  if ! PS5_PAYLOAD_SDK="$SDK" make -C "$W/src" > "$W/build.log" 2>&1; then
     echo "::warning::$ID: Build fehlgeschlagen"; tail -40 "$W/build.log"
     mkdir -p "$ROOT/build-logs"; tail -200 "$W/build.log" > "$ROOT/build-logs/$ID.log"; continue
   fi
