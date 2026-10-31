@@ -91,19 +91,6 @@
       "last_update": "2026-10-29"
     },
     {
-      "id": "ps5-linux-loader-rmux",
-      "name": "PS5 Linux Loader (rmuxwashere)",
-      "filename": "ps5-linux-loader-rmux_v3.5.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ps5-linux-loader-rmux_v3.5.elf",
-      "version": "v3.5",
-      "category": "PS5 Linux",
-      "author": "rmuxwashere",
-      "description": "Fork von ps5-linux-loader, der den offiziellen main-Stand als Releases veroeffentlicht (v3.x). v3.5 = Upstream-Stand 25.10. (12.xx), OHNE den Pro-11.xx-Commit vom 26.10. kstuff/etaHEN muessen aus sein.",
-      "checksum": "ef83da80f24a63c657e9c790cb5bbec7a64e5d37ad8e000751f636d1a6fe0e87",
-      "source": "https://github.com/rmuxwashere/ps5-linux-loader/releases/tag/v3.5",
-      "last_update": "2026-10-26"
-    },
-    {
       "id": "pkg-manager",
       "name": "Pkg Manager",
       "filename": "pkg-manager_v1.5.1.elf",
