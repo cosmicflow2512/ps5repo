@@ -115,6 +115,17 @@
       "output": "bin/ps5-linux-loader.elf"
     },
     {
+      "id": "ps5-linux-loader-rmux",
+      "name": "PS5 Linux Loader (rmuxwashere)",
+      "category": "PS5 Linux",
+      "author": "rmuxwashere",
+      "description": "Fork von ps5-linux-loader, der den offiziellen main-Stand als Releases veroeffentlicht (v3.x). v3.5 = Upstream-Stand 25.10. (12.xx), OHNE den Pro-11.xx-Commit vom 26.10. kstuff/etaHEN muessen aus sein.",
+      "type": "github",
+      "repo": "rmuxwashere/ps5-linux-loader",
+      "asset": "^ps5-linux-loader.*\\.elf$",
+      "prerelease": true
+    },
+    {
       "id": "ps5-linux-loader-soniciso",
       "name": "PS5 Linux Loader (SonicIso)",
       "category": "PS5 Linux",
