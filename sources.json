@@ -115,6 +115,16 @@
       "output": "bin/ps5-linux-loader.elf"
     },
     {
+      "id": "ps5-linux-loader-prooffsets",
+      "name": "PS5 Linux Loader (prooffsets)",
+      "category": "PS5 Linux",
+      "author": "unbekannt (Upload Maik)",
+      "description": "Test-Build ps5-linux-loader mit zusaetzlichen PS5-Pro-Offsets (manuell gepflegt, Herkunft unbestaetigt). Firmware-Tabelle 10.00-12.70 und 13.60. kstuff/etaHEN muessen aus sein.",
+      "type": "manual",
+      "file": "ps5-linux-loader-prooffsets.elf",
+      "version": "prooffsets-2026-11-03"
+    },
+    {
       "id": "ps5-linux-loader-soniciso",
       "name": "PS5 Linux Loader (SonicIso)",
       "category": "PS5 Linux",
