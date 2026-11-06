@@ -117,15 +117,15 @@
     {
       "id": "garlic-savemgr",
       "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.15-beta8.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/garlic-savemgr_v1.15-beta8.elf",
-      "version": "v1.15-beta8",
+      "filename": "garlic-savemgr_v1.15-beta11.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/garlic-savemgr_v1.15-beta11.elf",
+      "version": "v1.15-beta11",
       "category": "PS5 Saves",
       "author": "earthonion",
       "description": "Save-Manager (Decrypt/Encrypt/Export), Web-UI http://<PS5-IP>:8082",
-      "checksum": "b1efd3066156a0ac4c5f47504a4d1e4b79f3e3f523c3c6e296a3acc53b98364f",
-      "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/tag/v1.15-beta8",
-      "last_update": "2026-11-05"
+      "checksum": "ea2e068f09118a8fd444ae458d9625d589a3cd648012be23ddef478613e97557",
+      "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/tag/v1.15-beta11",
+      "last_update": "2026-11-06"
     },
     {
       "id": "ftpsrv",
