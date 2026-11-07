@@ -180,15 +180,15 @@
     {
       "id": "webkit-autoloader-installer",
       "name": "Webkit-Autoloader-Installer",
-      "filename": "webkit-autoloader-installer_v0.6.2.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/webkit-autoloader-installer_v0.6.2.elf",
-      "version": "v0.6.2",
+      "filename": "webkit-autoloader-installer_v0.7.0.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/webkit-autoloader-installer_v0.7.0.elf",
+      "version": "v0.7.0",
       "category": "Ps5-Webkit-Autoloader",
       "author": "itsPLK",
       "description": "Installiert den WebKit Autoloader auf dem Homescreen",
-      "checksum": "27fd335764270716972faea399a5cc7810b9e49a21abf4966d9759580756cb19",
-      "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/tag/v0.6.2",
-      "last_update": "2026-10-28"
+      "checksum": "10cb38baae078e41f252cffb0d356829c89ee63fd3234f1fd1e6b19f81eab1c7",
+      "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/tag/v0.7.0",
+      "last_update": "2026-11-06"
     }
   ]
 }
