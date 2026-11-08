@@ -117,15 +117,15 @@
     {
       "id": "garlic-savemgr",
       "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.15-beta12.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/garlic-savemgr_v1.15-beta12.elf",
-      "version": "v1.15-beta12",
+      "filename": "garlic-savemgr_v1.15-beta14.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/garlic-savemgr_v1.15-beta14.elf",
+      "version": "v1.15-beta14",
       "category": "PS5 Saves",
       "author": "earthonion",
       "description": "Save-Manager (Decrypt/Encrypt/Export), Web-UI http://<PS5-IP>:8082",
-      "checksum": "52ada30119d4f40800047f6bb8ece2beb15f836b3f3c74fda100e80fb54da30e",
-      "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/tag/v1.15-beta12",
-      "last_update": "2026-11-06"
+      "checksum": "2f9f4b575757b480443282f3c885b1e63cc4637e0ea2a043a8c79e392c792af0",
+      "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/tag/v1.15-beta14",
+      "last_update": "2026-11-08"
     },
     {
       "id": "ftpsrv",
@@ -180,15 +180,15 @@
     {
       "id": "webkit-autoloader-installer",
       "name": "Webkit-Autoloader-Installer",
-      "filename": "webkit-autoloader-installer_v0.7.0.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/webkit-autoloader-installer_v0.7.0.elf",
-      "version": "v0.7.0",
+      "filename": "webkit-autoloader-installer_v0.7.1.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/webkit-autoloader-installer_v0.7.1.elf",
+      "version": "v0.7.1",
       "category": "Ps5-Webkit-Autoloader",
       "author": "itsPLK",
       "description": "Installiert den WebKit Autoloader auf dem Homescreen",
-      "checksum": "10cb38baae078e41f252cffb0d356829c89ee63fd3234f1fd1e6b19f81eab1c7",
-      "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/tag/v0.7.0",
-      "last_update": "2026-11-06"
+      "checksum": "df60538570e9811bb0b4652a3fdb3e1a35ec3455b3ca7c80edc4140c5bb47ce2",
+      "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/tag/v0.7.1",
+      "last_update": "2026-11-08"
     }
   ]
 }
