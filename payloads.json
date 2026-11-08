@@ -41,15 +41,15 @@
     {
       "id": "shadowmountplus",
       "name": "ShadowMountPlus",
-      "filename": "shadowmountplus_1.7beta11.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/shadowmountplus_1.7beta11.elf",
-      "version": "1.7beta11",
+      "filename": "shadowmountplus_1.7beta12.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/shadowmountplus_1.7beta12.elf",
+      "version": "1.7beta12",
       "category": "PS5 Game Dump",
       "author": "drakmor",
       "description": "Game-/Image-Mounting. Web-UI Port 10101, Config /data/shadowmount/config.ini",
-      "checksum": "08c843018750bef013fe3a4de5f80c5c9738c6c2dafa2406e6b6e68d7585f3da",
-      "source": "https://github.com/drakmor/ShadowMountPlus/releases/tag/1.7beta11",
-      "last_update": "2026-10-29"
+      "checksum": "8755172ec9bef1bff5453ea75606e0caf7c41b5963f94f5a1087e7e8c6d9b1bd",
+      "source": "https://github.com/drakmor/ShadowMountPlus/releases/tag/1.7beta12",
+      "last_update": "2026-11-08"
     },
     {
       "id": "ps5-linux-loader-soniciso",
@@ -117,14 +117,14 @@
     {
       "id": "garlic-savemgr",
       "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.15-beta14.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/garlic-savemgr_v1.15-beta14.elf",
-      "version": "v1.15-beta14",
+      "filename": "garlic-savemgr_v1.15-beta15.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/garlic-savemgr_v1.15-beta15.elf",
+      "version": "v1.15-beta15",
       "category": "PS5 Saves",
       "author": "earthonion",
       "description": "Save-Manager (Decrypt/Encrypt/Export), Web-UI http://<PS5-IP>:8082",
-      "checksum": "2f9f4b575757b480443282f3c885b1e63cc4637e0ea2a043a8c79e392c792af0",
-      "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/tag/v1.15-beta14",
+      "checksum": "7e6a494eb3d19964e912d9a991014e398d115db36b25b3ab8c31c1bc9dae5758",
+      "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/tag/v1.15-beta15",
       "last_update": "2026-11-08"
     },
     {
