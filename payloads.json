@@ -80,15 +80,15 @@
     {
       "id": "ps5-linux-loader-main",
       "name": "PS5 Linux Loader (offiziell, main)",
-      "filename": "ps5-linux-loader-main_main-20261102-940bce3.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ps5-linux-loader-main_main-20261102-940bce3.elf",
-      "version": "main-20261102-940bce3",
+      "filename": "ps5-linux-loader-main_main-20261109-5d3b11e.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ps5-linux-loader-main_main-20261109-5d3b11e.elf",
+      "version": "main-20261109-5d3b11e",
       "category": "PS5 Linux",
       "author": "ps5-linux",
       "description": "Automatischer Build des offiziellen ps5-linux-loader aus dem main-Branch (kein offizielles Release, ungetestet). Laut README main: Fat/Slim 3.00-13.60, Pro 11.00-13.60. kstuff/etaHEN muessen aus sein. Braucht Linux-Image auf USB (>=64 GB).",
-      "checksum": "bc3cb7c9955719d7bd2935c03d7d282324f6e138ed2f49a7c83c8513ca0a2b30",
-      "source": "https://github.com/ps5-linux/ps5-linux-loader/commit/940bce3b0089ab7c7cf4eeb290128e9b3fd4713d",
-      "last_update": "2026-11-02"
+      "checksum": "b9aaf557343361997f46d09be00e3d9409a7088a6ba0e0e59e981360d022bc2a",
+      "source": "https://github.com/ps5-linux/ps5-linux-loader/commit/5d3b11e67fc71f7ab52261d050238fd87c17aa7e",
+      "last_update": "2026-11-09"
     },
     {
       "id": "ps5-linux-loader-prooffsets",
@@ -130,15 +130,15 @@
     {
       "id": "ftpsrv",
       "name": "ftpsrv",
-      "filename": "ftpsrv_v0.21.1.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ftpsrv_v0.21.1.elf",
-      "version": "v0.21.1",
+      "filename": "ftpsrv_v0.22.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ftpsrv_v0.22.elf",
+      "version": "v0.22",
       "category": "PS5 Server",
       "author": "ps5-payload-dev",
       "description": "FTP-Server (Original). Port 2121. Nicht zusammen mit ftpsrv (drakmor) starten.",
-      "checksum": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938",
-      "source": "https://github.com/ps5-payload-dev/ftpsrv/releases/tag/v0.21.1",
-      "last_update": "2026-08-20"
+      "checksum": "41148c2c1cad1ea9e7cfde03e389fa918e3338e896d06167346de09adbdc8757",
+      "source": "https://github.com/ps5-payload-dev/ftpsrv/releases/tag/v0.22",
+      "last_update": "2026-11-08"
     },
     {
       "id": "ftpsrv-drakmor",
@@ -156,15 +156,15 @@
     {
       "id": "bluev",
       "name": "BlueV",
-      "filename": "bluev_v0.4.0.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/bluev_v0.4.0.elf",
-      "version": "v0.4.0",
+      "filename": "bluev_v0.5.0.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/bluev_v0.5.0.elf",
+      "version": "v0.5.0",
       "category": "PS5 Utility",
       "author": "0xZ3n0x",
       "description": "Bluetooth-Audio A2DP/SBC auf Lautsprecher/Kopfhoerer, USB-BT-Adapter oder interner Chip. Web-UI http://<PS5-IP>:7733 (ohne Passwort). Kein Mikrofon. Getestet nur PS5 Slim. Nicht parallel zu ghost-toothAPI/FGG-PlayPods. Log: /data/bluev/bluev.log",
-      "checksum": "2ab4b55cae7127cf56a1c816a804ce9577ca517fd87c09beda7ea9b2ad1f3829",
-      "source": "https://github.com/0xZ3n0x/BlueV/releases/tag/v0.4.0",
-      "last_update": "2026-10-30"
+      "checksum": "16b9912160119eb3a6561738a29aad03d4e549594a802734f61edbeed60358e8",
+      "source": "https://github.com/0xZ3n0x/BlueV/releases/tag/v0.5.0",
+      "last_update": "2026-11-09"
     },
     {
       "id": "ghost-toothapi",
