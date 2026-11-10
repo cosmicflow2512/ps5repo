@@ -80,15 +80,15 @@
     {
       "id": "ps5-linux-loader-main",
       "name": "PS5 Linux Loader (offiziell, main)",
-      "filename": "ps5-linux-loader-main_main-20261109-5d3b11e.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ps5-linux-loader-main_main-20261109-5d3b11e.elf",
-      "version": "main-20261109-5d3b11e",
+      "filename": "ps5-linux-loader-main_main-20261110-c465293.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/ps5-linux-loader-main_main-20261110-c465293.elf",
+      "version": "main-20261110-c465293",
       "category": "PS5 Linux",
       "author": "ps5-linux",
       "description": "Automatischer Build des offiziellen ps5-linux-loader aus dem main-Branch (kein offizielles Release, ungetestet). Laut README main: Fat/Slim 3.00-13.60, Pro 11.00-13.60. kstuff/etaHEN muessen aus sein. Braucht Linux-Image auf USB (>=64 GB).",
-      "checksum": "b9aaf557343361997f46d09be00e3d9409a7088a6ba0e0e59e981360d022bc2a",
-      "source": "https://github.com/ps5-linux/ps5-linux-loader/commit/5d3b11e67fc71f7ab52261d050238fd87c17aa7e",
-      "last_update": "2026-11-09"
+      "checksum": "6f36b474ce332a9ec0a507f5ccac33822082486278d57a905f95a3eacc7c739b",
+      "source": "https://github.com/ps5-linux/ps5-linux-loader/commit/c46529329b0fe186d170ae51a0f2b9097ba1cd2e",
+      "last_update": "2026-11-10"
     },
     {
       "id": "ps5-linux-loader-prooffsets",

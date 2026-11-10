@@ -1,9 +1,9 @@
 {
   "ps5-linux-loader-main": {
-    "sha": "5d3b11e67fc71f7ab52261d050238fd87c17aa7e",
-    "version": "main-20261109-5d3b11e",
-    "file": "ps5-linux-loader-main_main-20261109-5d3b11e.elf",
-    "date": "2026-11-09",
-    "source": "https://github.com/ps5-linux/ps5-linux-loader/commit/5d3b11e67fc71f7ab52261d050238fd87c17aa7e"
+    "sha": "c46529329b0fe186d170ae51a0f2b9097ba1cd2e",
+    "version": "main-20261110-c465293",
+    "file": "ps5-linux-loader-main_main-20261110-c465293.elf",
+    "date": "2026-11-10",
+    "source": "https://github.com/ps5-linux/ps5-linux-loader/commit/c46529329b0fe186d170ae51a0f2b9097ba1cd2e"
   }
 }
