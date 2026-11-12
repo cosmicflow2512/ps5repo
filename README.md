@@ -34,6 +34,7 @@ Eintrag in `sources.json` ergänzen und committen, der Workflow läuft dann auto
 | garlic-savemgr | [earthonion/garlic-savemgr](https://git.etawen.dev/earthonion/garlic-savemgr) (Forgejo) |
 | Webkit-Autoloader-Installer | [itsPLK/ps5-webkit-autoloader](https://github.com/itsPLK/ps5-webkit-autoloader) |
 | Pkg Manager | [itsPLK/ps5-pkg-manager](https://github.com/itsPLK/ps5-pkg-manager) |
+| PS5 Linux Loader (ps5-bazzite-deck) | [VivaLaVent/ps5-bazzite-deck](https://github.com/VivaLaVent/ps5-bazzite-deck) (bazzite-bootc-loader, neuestes Release) |
 | PS5 Linux Loader (offiziell) | [ps5-linux/ps5-linux-loader](https://github.com/ps5-linux/ps5-linux-loader) |
 | PS5 Linux Loader (offiziell, main) | Build aus [ps5-linux/ps5-linux-loader](https://github.com/ps5-linux/ps5-linux-loader) main, bei jedem neuen Commit |
 | PS5 Linux Loader (prooffsets) | manuell (Test-Build mit Pro-Offsets) |

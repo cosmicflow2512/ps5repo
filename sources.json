@@ -93,6 +93,17 @@
       "prerelease": false
     },
     {
+      "id": "bazzite-bootc-loader",
+      "name": "PS5 Linux Loader (ps5-bazzite-deck)",
+      "category": "PS5 Linux",
+      "author": "VivaLaVent",
+      "description": "bazzite-bootc-loader aus VivaLaVent/ps5-bazzite-deck: soniciso1-Loader (gepinnter Commit) + eigene Patches (Viola/WLAN/BT-Dumps direkt in die initrd, Boot-Dateien auch aus /data/PS5/Linux, BT-Pairing-Export). Neuestes Release inkl. Pre-Releases. Passend zu den ps5-bazzite-deck-Images.",
+      "type": "github",
+      "repo": "VivaLaVent/ps5-bazzite-deck",
+      "asset": "^bazzite-bootc-loader-.*\\.elf$",
+      "prerelease": true
+    },
+    {
       "id": "ps5-linux-loader",
       "name": "PS5 Linux Loader (offiziell)",
       "category": "PS5 Linux",
