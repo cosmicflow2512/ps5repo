@@ -126,6 +126,18 @@
       "output": "bin/ps5-linux-loader.elf"
     },
     {
+      "id": "elf-arsenal",
+      "name": "Elf Arsenal",
+      "category": "PS5 Utility",
+      "author": "soniciso",
+      "description": "All-in-one-ELF (Nachfolger Sonic Loader): Web-UI http://<PS5-IP>:6969 mit Cheats, Save-Verwaltung, FTP, ShadowMountPlus, kstuff-lite, PS5-Linux-Loader, Luefter, NP Fake Sign-in. Bringt eigene Versionen von kstuff/SMP/FTP mit: nicht doppelt mit den Einzel-Payloads starten.",
+      "type": "forgejo",
+      "host": "https://git.etawen.dev",
+      "repo": "soniciso/elf-arsenal",
+      "asset": "^elf-arsenal.*\\.elf$",
+      "prerelease": true
+    },
+    {
       "id": "ps5-linux-loader-prooffsets",
       "name": "PS5 Linux Loader (prooffsets)",
       "category": "PS5 Linux",

@@ -39,6 +39,7 @@ Eintrag in `sources.json` ergänzen und committen, der Workflow läuft dann auto
 | PS5 Linux Loader (offiziell, main) | Build aus [ps5-linux/ps5-linux-loader](https://github.com/ps5-linux/ps5-linux-loader) main, bei jedem neuen Commit |
 | PS5 Linux Loader (prooffsets) | manuell (Test-Build mit Pro-Offsets) |
 | PS5 Linux Loader (SonicIso) | [soniciso1/ps5-linux-loader](https://github.com/soniciso1/ps5-linux-loader) |
+| Elf Arsenal | [soniciso/elf-arsenal](https://git.etawen.dev/soniciso/elf-arsenal) (Forgejo) |
 | Kstuff 1.13 Fpkg Dr Test | manuell (Test-Build drakmor) |
 | BlueV | [0xZ3n0x/BlueV](https://github.com/0xZ3n0x/BlueV) |
 | ghost-toothAPI | manuell (Forum-Release StonedModder) |
