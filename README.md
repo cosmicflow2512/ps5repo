@@ -32,6 +32,7 @@ Eintrag in `sources.json` ergänzen und committen, der Workflow läuft dann auto
 | ShadowMountPlus | [drakmor/ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus) |
 | nanoDNS | [drakmor/nanoDNS](https://github.com/drakmor/nanoDNS) |
 | garlic-savemgr | [earthonion/garlic-savemgr](https://git.etawen.dev/earthonion/garlic-savemgr) (Forgejo) |
+| NP Fake Sign-in / Sign-out | [earthonion/np-fake-signin](https://git.etawen.dev/earthonion/np-fake-signin) (Forgejo) |
 | Webkit-Autoloader-Installer | [itsPLK/ps5-webkit-autoloader](https://github.com/itsPLK/ps5-webkit-autoloader) |
 | Pkg Manager | [itsPLK/ps5-pkg-manager](https://github.com/itsPLK/ps5-pkg-manager) |
 | PS5 Linux Loader (ps5-bazzite-deck) | [VivaLaVent/ps5-bazzite-deck](https://github.com/VivaLaVent/ps5-bazzite-deck) (bazzite-bootc-loader, neuestes Release) |

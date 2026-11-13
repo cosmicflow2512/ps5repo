@@ -71,6 +71,30 @@
       "prerelease": true
     },
     {
+      "id": "np-fake-signin",
+      "name": "NP Fake Sign-in",
+      "category": "PS5 Utility",
+      "author": "earthonion",
+      "description": "Meldet das Konto lokal als PSN-angemeldet (Fake Sign-in), z. B. fuer Spiele/Apps, die eine PSN-Anmeldung verlangen. In Elf Arsenal bereits enthalten.",
+      "type": "forgejo",
+      "host": "https://git.etawen.dev",
+      "repo": "earthonion/np-fake-signin",
+      "asset": "(?i)sign-?in.*\\.elf$",
+      "prerelease": true
+    },
+    {
+      "id": "np-fake-signout",
+      "name": "NP Fake Sign-out",
+      "category": "PS5 Utility",
+      "author": "earthonion",
+      "description": "Macht den NP Fake Sign-in wieder rueckgaengig.",
+      "type": "forgejo",
+      "host": "https://git.etawen.dev",
+      "repo": "earthonion/np-fake-signin",
+      "asset": "(?i)sign-?out.*\\.elf$",
+      "prerelease": true
+    },
+    {
       "id": "webkit-autoloader-installer",
       "name": "Webkit-Autoloader-Installer",
       "category": "Ps5-Webkit-Autoloader",
