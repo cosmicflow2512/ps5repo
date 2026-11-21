@@ -104,15 +104,15 @@
     {
       "id": "bazzite-bootc-loader",
       "name": "PS5 Linux Loader (ps5-bazzite-deck)",
-      "filename": "bazzite-bootc-loader_v3.0.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/bazzite-bootc-loader_v3.0.elf",
-      "version": "v3.0",
+      "filename": "bazzite-bootc-loader_v3.0.1.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/bazzite-bootc-loader_v3.0.1.elf",
+      "version": "v3.0.1",
       "category": "PS5 Linux",
       "author": "VivaLaVent",
       "description": "bazzite-bootc-loader aus VivaLaVent/ps5-bazzite-deck: soniciso1-Loader (gepinnter Commit) + eigene Patches (Viola/WLAN/BT-Dumps direkt in die initrd, Boot-Dateien auch aus /data/PS5/Linux, BT-Pairing-Export). Neuestes Release inkl. Pre-Releases. Passend zu den ps5-bazzite-deck-Images.",
-      "checksum": "61cfbcee4c531e173bb7e4a1feb527440d237e6e3a8f93c998bfae5462ad9a8a",
-      "source": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/tag/v3.0",
-      "last_update": "2026-11-19"
+      "checksum": "77f7a6c2c8ced3328694ab82f8fe6502f4115a527dd6007e4c858771b613a2d4",
+      "source": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/tag/v3.0.1",
+      "last_update": "2026-11-21"
     },
     {
       "id": "pkg-manager",
@@ -206,15 +206,15 @@
     {
       "id": "webkit-autoloader-installer",
       "name": "Webkit-Autoloader-Installer",
-      "filename": "webkit-autoloader-installer_v0.8.2.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/webkit-autoloader-installer_v0.8.2.elf",
-      "version": "v0.8.2",
+      "filename": "webkit-autoloader-installer_v0.8.3.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/webkit-autoloader-installer_v0.8.3.elf",
+      "version": "v0.8.3",
       "category": "Ps5-Webkit-Autoloader",
       "author": "itsPLK",
       "description": "Installiert den WebKit Autoloader auf dem Homescreen",
-      "checksum": "1c415bc124944c85b86a4751006b98010b977f142142d67306d13804899bad54",
-      "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/tag/v0.8.2",
-      "last_update": "2026-11-20"
+      "checksum": "f4b0dee9af572ea1cb77aaf1e6fc5bf8ef520fc0a0a30753dd94a5cbdc04dd8e",
+      "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/tag/v0.8.3",
+      "last_update": "2026-11-21"
     }
   ]
 }
