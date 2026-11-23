@@ -104,15 +104,15 @@
     {
       "id": "bazzite-bootc-loader",
       "name": "PS5 Linux Loader (ps5-bazzite-deck)",
-      "filename": "bazzite-bootc-loader_v3.0.1.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/bazzite-bootc-loader_v3.0.1.elf",
-      "version": "v3.0.1",
+      "filename": "bazzite-bootc-loader_v3.0.4.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/bazzite-bootc-loader_v3.0.4.elf",
+      "version": "v3.0.4",
       "category": "PS5 Linux",
       "author": "VivaLaVent",
       "description": "bazzite-bootc-loader aus VivaLaVent/ps5-bazzite-deck: soniciso1-Loader (gepinnter Commit) + eigene Patches (Viola/WLAN/BT-Dumps direkt in die initrd, Boot-Dateien auch aus /data/PS5/Linux, BT-Pairing-Export). Neuestes Release inkl. Pre-Releases. Passend zu den ps5-bazzite-deck-Images.",
       "checksum": "77f7a6c2c8ced3328694ab82f8fe6502f4115a527dd6007e4c858771b613a2d4",
-      "source": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/tag/v3.0.1",
-      "last_update": "2026-11-21"
+      "source": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/tag/v3.0.4",
+      "last_update": "2026-11-23"
     },
     {
       "id": "pkg-manager",
