@@ -170,14 +170,14 @@
       "prerelease": true
     },
     {
-      "id": "kstuff-1.13-dr-test",
-      "name": "Kstuff 1.13 Fpkg Dr Test",
+      "id": "kstuff-dr-test",
+      "name": "Kstuff 1.15 Dr Test",
       "category": "PS5 Beta",
       "author": "drakmor",
-      "description": "Experimental Kstuff Lite DarkMor (Test-Build, manuell gepflegt). test7-restmode: PPR-Resume nach Ruhemodus",
+      "description": "Experimental Kstuff Lite DarkMor (Test-Build, manuell gepflegt). 1.15 dr-test3-stable",
       "type": "manual",
-      "file": "kstuff-1.13-fpkg-dr-test7-restmode.elf",
-      "version": "1.13-fpkg-dr-test7-restmode"
+      "file": "kstuff-1.15-dr-test3-stable.elf",
+      "version": "1.15-dr-test3-stable"
     },
     {
       "id": "ghost-toothapi",
