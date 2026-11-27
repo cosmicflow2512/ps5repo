@@ -15,13 +15,13 @@
     {
       "id": "kstuff-dr-test",
       "name": "Kstuff 1.15 Dr Test",
-      "filename": "kstuff-1.15-dr-test3-stable.elf",
-      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/kstuff-1.15-dr-test3-stable.elf",
-      "version": "1.15-dr-test3-stable",
+      "filename": "kstuff-1.15-dr-test4.elf",
+      "url": "https://raw.githubusercontent.com/cosmicflow2512/ps5repo/main/payloads/kstuff-1.15-dr-test4.elf",
+      "version": "1.15-dr-test4",
       "category": "PS5 Beta",
       "author": "drakmor",
-      "description": "Experimental Kstuff Lite DarkMor (Test-Build, manuell gepflegt). 1.15 dr-test3-stable",
-      "checksum": "6c3758c2cc84e3aa7e3c41952371fd04e641647d46d03f8d4bea2ab77c16ecf5"
+      "description": "Experimental Kstuff Lite DarkMor (Test-Build, manuell gepflegt). 1.15 dr-test4",
+      "checksum": "2acac07e93192856f15cf9dcac645c821ea20c9d2a75438ebcfd988f739828be"
     },
     {
       "id": "nanodns",
