@@ -174,10 +174,10 @@
       "name": "Kstuff 1.15 Dr Test",
       "category": "PS5 Beta",
       "author": "drakmor",
-      "description": "Experimental Kstuff Lite DarkMor (Test-Build, manuell gepflegt). 1.15 dr-test3-stable",
+      "description": "Experimental Kstuff Lite DarkMor (Test-Build, manuell gepflegt). 1.15 dr-test4",
       "type": "manual",
-      "file": "kstuff-1.15-dr-test3-stable.elf",
-      "version": "1.15-dr-test3-stable"
+      "file": "kstuff-1.15-dr-test4.elf",
+      "version": "1.15-dr-test4"
     },
     {
       "id": "kstuff-1.13-dr-test",
